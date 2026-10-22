@@ -1,0 +1,46 @@
+name: Paper suggestion
+description: Suggest a paper, benchmark, or article for the list
+title: "[Paper] <title>"
+labels: ["paper-suggestion"]
+body:
+  - type: input
+    id: title
+    attributes: {label: Title}
+    validations: {required: true}
+  - type: input
+    id: url
+    attributes: {label: Canonical URL, description: "arXiv abs, ACL Anthology, OpenReview, PMLR, proceedings, or DOI"}
+    validations: {required: true}
+  - type: input
+    id: venue
+    attributes: {label: Venue and year, description: "Write 'preprint' if not yet published"}
+    validations: {required: true}
+  - type: dropdown
+    id: part
+    attributes:
+      label: Which part does it belong to?
+      options:
+        - "1. Foundations: calibration & verbal confidence"
+        - "2. How alignment/RLHF affects calibration"
+        - "3. RL with calibration-aware (scoring-rule) rewards"
+        - "4. Calibration in RLVR / reasoning models"
+        - "5. Abstention & hallucination-aware RL"
+        - "6. Uncertainty-aware reward models"
+        - "7. Decisions & agents under uncertainty"
+        - "8. Theory / position"
+        - "9. Surveys"
+        - "10. Jev / System One models"
+    validations: {required: true}
+  - type: textarea
+    id: takeaway
+    attributes: {label: One-sentence takeaway, description: "What does it show? Neutral language."}
+    validations: {required: true}
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the list and this is not a duplicate.
+          required: true
+        - label: The URL resolves.
+          required: true

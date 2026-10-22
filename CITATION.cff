@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this reading list, please cite it as below."
+title: "Awesome RL for Calibrated Decisions: A Curated Reading List"
+type: dataset
+authors:
+  - family-names: Rallabandi
+    given-names: Sai Krishna
+version: "0.1"
+date-released: "2026-10-21"
+license: CC-BY-4.0
+repository-code: "https://github.com/saikrishnarallabandi/awesome-rl-calibrated-decisions"
+keywords:
+  - calibration
+  - reinforcement learning
+  - abstention
+  - uncertainty
+  - large language models
