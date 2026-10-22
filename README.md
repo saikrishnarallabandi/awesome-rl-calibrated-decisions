@@ -36,7 +36,7 @@ Most post-training methods optimize for what people prefer (RLHF) or what can be
 9. [Surveys](#part-9)
 10. [Jev / System One models](#part-10)
 
-Entries are newest first within each part. Venue is shown when verified against proceedings, ACL Anthology, PMLR, or publisher pages; otherwise entries are marked *preprint* or *under review / unconfirmed*. Full metadata: [`papers.csv`](papers.csv), [`papers.bib`](papers.bib). Synthesis and open problems: [`lit_review.md`](lit_review.md).
+Entries are newest first within each part. Venue is shown when verified against proceedings, ACL Anthology, PMLR, or publisher pages; otherwise entries are marked *preprint* or *under review / unconfirmed*. Full metadata: [`papers.csv`](papers.csv), [`papers.bib`](papers.bib). Synthesis and open problems: [`lit_review.md`](lit_review.md). Training and evaluation data: [`datasets.md`](datasets.md).
 
 <a id="part-1"></a>
 
